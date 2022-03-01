@@ -1,0 +1,426 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+   
+}
+body {
+    background-color: hsl(0, 0%, 98%)
+  }
+/*--------------------------------------------------------------
+    Jumbotron - hlavní obrazovka
+--------------------------------------------------------------*/
+.jumbotron{
+    height: 100vh;
+    color:white;
+    position: relative;
+    background-color: #000000 !important;
+     
+}
+.jumbotron:before{
+    background: url("../images/1.jpeg") no-repeat center;
+    background-size: cover;
+    position: absolute;
+     content: "";
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+     opacity: .5;
+}
+.jumbotron h1{
+    font-size: 58px;
+    font-weight: 800;
+    margin-top:80px;
+    padding-left:50px;
+    padding-bottom: 30px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    
+}
+
+.intro{
+    padding-top: 200px;
+    position: relative;
+}
+.bg-cover{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6) 0%,rgba(255,255,255,0.9) 100%),
+    url(/assets/images/1.jpeg)"
+}
+h4{
+    font-weight: bold;
+    padding-bottom: 23px;
+}
+a.navbar-brand{
+    color:white !important;
+    padding-left:80px;
+    font-size: 24px;
+}
+a.nav-link{
+    color:white !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.bi-search::before {
+    color:white;
+    padding-top:10px;
+}
+.bi-cart::before {
+    color:white;
+    padding-top:10px;
+}
+.bi-list::before {
+    color:white;
+    padding-top:10px;
+}
+
+button.btn.btn-light.btn-rounded {
+    color: white;
+}
+.fa-users:before {
+    color: #00A0C1;
+}
+.fa-store:before {
+    color: #00A0C1;
+}
+.fa-table-list:before{
+    color: #00A0C1;
+}
+.fa-award:before{
+    color: #00A0C1;
+}
+/*--------------------------------------------------------------
+    CONTAINER S TEXTEM A IKONKAMA
+--------------------------------------------------------------*/
+.textvedleikony{
+    display: inline-block;
+}
+.nadpis-karty{
+    color:#252B42;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+.odstavec-karty{
+    color:#737373;
+}
+.cards{
+    border:2px solid white;
+    margin-top: -150px;
+    background-color: #fff;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    margin-left:30px;
+    position: relative;
+}
+.fa-list-alt:before, .fa-rectangle-list:before {
+    color: white;
+}
+/*--------------------------------------------------------------
+    KARTY S IKONKAMA, TEXT A BUTTON
+--------------------------------------------------------------*/
+             
+#hero .icon-box.jine{
+    background-color: #252B42;
+    color:white;
+    font-weight: bold;
+}
+#hero .icon-boxes {
+    margin-top: 100px;
+  }
+
+  #hero .icon-box {
+    padding: 50px 30px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 0 29px 0 rgba(18, 66, 101, 0.08);
+    transition: all 0.3s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+  }
+
+  #hero .icon-box .icon {
+    margin-bottom: 20px;
+    padding-top: 10px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    font-size: 36px;
+    line-height: 1;
+    color: #00A0C1;
+  }
+  
+  p{
+      color:#737373;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+  }
+ p.moje-jine-p{
+    color:white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+ }
+  h5.moje{
+      font-weight: normal;
+      color:#252B42;
+      font-size: 16px;
+      font-family: 'Montserrat', sans-serif;
+  }
+  h5.moje-jine{
+      color:white;
+      font-weight: bold;
+      font-size: 16px;
+  }
+  button.btn-outline-primary {
+    background-color: #fff;
+    color: #00A0C1;
+    border-color: #00A0C1;
+    width: 124px;
+    height: 48px;
+    font-size: 14px;
+    border-radius: 20px;
+    
+}
+button.btn-outline-secondary{
+    color:#FFA62B;
+    border-radius: 20px;
+    font-size: 14px;
+    border-color:white;
+    background-color: #fff;
+    width: 124px;
+    height: 48px;
+    
+}
+
+/*--------------------------------------------------------------
+    sekce obecně
+--------------------------------------------------------------*/
+section {
+    padding: 45px 0;
+    overflow: hidden;
+  }
+  
+  .section-bg {
+    background-color: #f8fbfe;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 75px;
+  }
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #252B42;
+  }
+  .section-title p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #919191;
+  }
+/*--------------------------------------------------------------
+# About us video
+--------------------------------------------------------------*/
+h2.nadpis-video{
+    color:#252B42;
+    font-weight: bold;
+}
+/*--------------------------------------------------------------
+# Our team
+--------------------------------------------------------------*/
+#ourteam{
+    background-color: rgba(234, 234, 234, 1);
+}
+
+
+h2.mb-3{
+    color:#252B42;
+    font-size:40px;
+    font-weight:bold;
+}
+p.team-p{
+    color:#FFA62B;
+    font-weight: bold;
+    font-size: 14px;
+}
+h5.team-h5{
+    color:#252B42;
+    font-size: 16px;
+    font-weight: bold;
+}
+p.mb-0{
+    color:#737373;
+}
+.p-4{
+    background: white;
+    margin-right:20px;
+    
+}
+/*--------------------------------------------------------------
+# MAP
+--------------------------------------------------------------*/
+#map{
+    background: #252B42;
+    color:white;
+    height:800px;
+}
+#map p{
+    color:white;
+}
+/*--------------------------------------------------------------
+# CONTACT-FORM
+--------------------------------------------------------------*/
+#contact-form{
+    padding-top:0;
+    position: relative;
+    z-index: 2;
+   overflow: visible;
+}
+.container-form{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px 141px 100px;
+    background-color: #f1f4f5ea;
+    
+
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	filter: blur(50px);
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+    position: relative;
+    transform: translate(0,-300px);
+    z-index: 2;
+    margin-bottom: -300px;
+}
+
+.left{
+	background: url("/assets/images/8.png") no-repeat center;
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 14px;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+button.btn{
+    cursor: pointer;
+    background-color: #FFA62B;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #2ecc71;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+select.form-select{
+   
+        width: 100%;
+        border: 2px solid rgba(0, 0, 0, 0);
+        outline: none;
+        background-color: rgba(230, 230, 230, 0.6);
+        padding: 0.5rem 1rem;
+        font-size: 14px;
+        margin-bottom: 22px;
+        transition: .3s;
+        color:#737373;
+    }
+label{
+    float:left;
+    margin-bottom: 15px;
+    color:#252B42;
+    font-size: 14px;
+    font-weight:600;
+}
+
+/*--------------------------------------------------------------
+        FOOTER
+--------------------------------------------------------------*/
+.text-center{
+    background-color:rgba(234, 234, 234, 1);
+    font-size:14px;
+    color:#737373;
+    font-weight:600;
+}
+footer{
+    color:#252B42;
+}
+h4.mb-3 {
+    font-size: 24px;
+    font-weight: bold;
+}
